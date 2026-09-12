@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,6 +9,7 @@
     name="description"
     content="Create beautiful presentations with SlideGenie, an AI-powered presentation maker."
   >
+  <meta name="theme-color" content="#2563eb">
 
   <link rel="icon" href="assets/slidegenie_logo.png">
   <link rel="stylesheet" href="styles.css">
@@ -17,351 +17,405 @@
 
 <body>
 
+<!-- ================= NAVBAR ================= -->
 <header class="navbar">
   <div class="container nav-inner">
 
+    <a href="./" class="brand">
+      <img src="assets/slidegenie_logo.png" alt="SlideGenie logo" class="site-logo">
+      <span>SlideGenie</span>
+    </a>
 
-<a href="./" class="brand">
-  <img
-    src="assets/slidegenie_logo.png"
-    alt="SlideGenie logo"
-    class="site-logo"
-  >
-  <span>SlideGenie</span>
-</a>
+    <div class="nav-right">
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
 
-<nav class="nav-links">
-  <a href="#features">Features</a>
-  <a href="#how-it-works">How it works</a>
-  <a href="privacy.html">Privacy Policy</a>
-  <a
-    href="https://github.com/Harry-coder12/SlideGenie"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    GitHub
-  </a>
-</nav>
-
+      <a
+        class="nav-cta"
+        href="https://github.com/Harry-coder12/SlideGenie/releases"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download APK
+      </a>
+    </div>
 
   </div>
 </header>
 
 <main>
 
-  <!-- HERO -->
-
+  <!-- ================= HERO ================= -->
   <section class="hero">
     <div class="container hero-grid">
 
+      <div class="hero-content">
 
-  <div class="hero-content">
+        <span class="eyebrow">✦ AI-powered presentation maker</span>
 
-    <div class="eyebrow">
-      AI-powered presentation maker
-    </div>
+        <h1>
+          Turn your ideas into
+          <span class="grad">beautiful presentations.</span>
+        </h1>
 
-    <h1>
-      Turn your ideas into
-      <span>beautiful presentations.</span>
-    </h1>
+        <p>
+          Create polished presentations in minutes with AI.
+          Generate slides, edit your content, and export your
+          finished presentation with ease.
+        </p>
 
-    <p>
-      Create polished presentations in minutes with AI.
-      Generate slides, edit your content, and export your
-      finished presentation with ease.
-    </p>
+        <div class="hero-buttons">
 
-    <div class="hero-buttons">
-
-      <a
-        class="btn btn-primary"
-        href="https://github.com/Harry-coder12/SlideGenie/releases"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Android APK
-      </a>
-
-      <a class="btn btn-secondary" href="web/">
-        Open Web App
-      </a>
-
-    </div>
-
-    <div class="trust-row">
-      <span>AI Generation</span>
-      <span>Easy Editing</span>
-      <span>Export Ready</span>
-    </div>
-
-  </div>
-
-
-  <div class="hero-visual">
-
-    <div class="presentation-card">
-
-      <div class="presentation-topbar">
-        <div class="window-dots">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        <span class="presentation-title">
-          SlideGenie
-        </span>
-      </div>
-
-      <div class="presentation-preview">
-
-        <div class="mock-logo">
-          <img
-            src="assets/slidegenie_logo.png"
-            alt="SlideGenie logo"
+          <a
+            class="btn btn-primary"
+            href="https://github.com/Harry-coder12/SlideGenie/releases"
+            target="_blank"
+            rel="noopener noreferrer"
           >
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2.2"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12"/>
+              <path d="m7 12 5 5 5-5"/>
+              <path d="M5 21h14"/>
+            </svg>
+            Download Android APK
+          </a>
+
+          <a class="btn btn-secondary" href="web/">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2.2"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7 17 17 7"/>
+              <path d="M9 7h8v8"/>
+            </svg>
+            Open Web App
+          </a>
+
         </div>
 
-        <div class="mock-heading">
-          Your next great
-          <br>
-          presentation
+        <ul class="trust-row">
+          <li>AI Generation</li>
+          <li>Easy Editing</li>
+          <li>Export Ready</li>
+        </ul>
+
+      </div>
+
+      <div class="hero-visual">
+
+        <div class="presentation-card">
+
+          <div class="presentation-topbar">
+            <div class="window-dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <span class="presentation-title">SlideGenie</span>
+          </div>
+
+          <div class="presentation-preview">
+
+            <div class="mock-logo">
+              <img src="assets/slidegenie_logo.png" alt="SlideGenie logo">
+            </div>
+
+            <div class="mock-heading">
+              Your next great
+              <br>
+              presentation
+            </div>
+
+            <div class="mock-line"></div>
+
+            <div class="mock-small-line"></div>
+            <div class="mock-small-line short"></div>
+
+          </div>
+
         </div>
-
-        <div class="mock-line"></div>
-
-        <div class="mock-small-line"></div>
-        <div class="mock-small-line short"></div>
 
       </div>
 
     </div>
-
-  </div>
-
-</div>
-
-
   </section>
 
-  <!-- FEATURES -->
+  <!-- ================= SCREENSHOTS ================= -->
+  <section class="section section-alt" id="screenshots">
+    <div class="container">
 
+      <div class="section-heading center">
+        <span class="eyebrow">Screenshots</span>
+        <h2>A clean, focused workspace</h2>
+        <p>Take a quick look at SlideGenie before you download it.</p>
+      </div>
+
+      <!-- ==========================================================
+           APNI 5 SCREENSHOTS YAHAN LAGAYE
+           assets/screenshot-1.png  →  assets/screenshot-5.png
+           Best result: sab same size (e.g. 1080 × 2340)
+           ========================================================== -->
+      <div class="shots">
+
+        <figure class="shot">
+          <div class="phone">
+            <span class="notch"></span>
+            <div class="phone-screen">
+              <img
+                src="assets/screenshot-1.png"
+                alt="SlideGenie — home screen"
+                loading="lazy"
+                onerror="this.closest('.phone-screen').classList.add('is-empty')"
+              >
+            </div>
+          </div>
+        </figure>
+
+        <figure class="shot">
+          <div class="phone">
+            <span class="notch"></span>
+            <div class="phone-screen">
+              <img
+                src="assets/screenshot-2.png"
+                alt="SlideGenie — topic input screen"
+                loading="lazy"
+                onerror="this.closest('.phone-screen').classList.add('is-empty')"
+              >
+            </div>
+          </div>
+        </figure>
+
+        <figure class="shot">
+          <div class="phone">
+            <span class="notch"></span>
+            <div class="phone-screen">
+              <img
+                src="assets/screenshot-3.png"
+                alt="SlideGenie — AI generating slides"
+                loading="lazy"
+                onerror="this.closest('.phone-screen').classList.add('is-empty')"
+              >
+            </div>
+          </div>
+        </figure>
+
+        <figure class="shot">
+          <div class="phone">
+            <span class="notch"></span>
+            <div class="phone-screen">
+              <img
+                src="assets/screenshot-4.png"
+                alt="SlideGenie — slide editor"
+                loading="lazy"
+                onerror="this.closest('.phone-screen').classList.add('is-empty')"
+              >
+            </div>
+          </div>
+        </figure>
+
+        <figure class="shot">
+          <div class="phone">
+            <span class="notch"></span>
+            <div class="phone-screen">
+              <img
+                src="assets/screenshot-5.png"
+                alt="SlideGenie — export presentation"
+                loading="lazy"
+                onerror="this.closest('.phone-screen').classList.add('is-empty')"
+              >
+            </div>
+          </div>
+        </figure>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FEATURES ================= -->
   <section class="section" id="features">
+    <div class="container">
 
+      <div class="section-heading">
+        <span class="eyebrow">Features</span>
+        <h2>Everything you need to create presentations.</h2>
+        <p>
+          A simple workflow designed to take you from an idea
+          to a finished presentation quickly.
+        </p>
+      </div>
 
-<div class="container">
+      <div class="feature-grid">
 
-  <div class="section-heading">
-    <div class="eyebrow">Features</div>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2.6l1.9 5.1 5.1 1.9-5.1 1.9L12 16.6l-1.9-5.1L5 9.6l5.1-1.9L12 2.6z"/>
+              <path d="M19 15l.9 2.4 2.4.9-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9L19 15z"/>
+            </svg>
+          </div>
 
-    <h2>
-      Everything you need to create presentations.
-    </h2>
+          <h3>AI Generation</h3>
+          <p>
+            Describe what you want and let AI help generate
+            structured presentation content and slides.
+          </p>
+        </article>
 
-    <p>
-      A simple workflow designed to take you from an idea
-      to a finished presentation quickly.
-    </p>
-  </div>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 20h9"/>
+              <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/>
+            </svg>
+          </div>
 
+          <h3>Easy Editing</h3>
+          <p>
+            Refine your presentation and adjust your slides
+            before exporting your final work.
+          </p>
+        </article>
 
-  <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12"/>
+              <path d="m7 12 5 5 5-5"/>
+              <path d="M5 21h14"/>
+            </svg>
+          </div>
 
-    <article class="feature-card">
-      <div class="feature-icon">✦</div>
+          <h3>Export Your Work</h3>
+          <p>
+            Export your completed presentations and keep your
+            finished work ready to share.
+          </p>
+        </article>
 
-      <h3>AI Generation</h3>
+      </div>
 
-      <p>
-        Describe what you want and let AI help generate
-        structured presentation content and slides.
-      </p>
-    </article>
-
-
-    <article class="feature-card">
-      <div class="feature-icon">✎</div>
-
-      <h3>Easy Editing</h3>
-
-      <p>
-        Refine your presentation and adjust your slides
-        before exporting your final work.
-      </p>
-    </article>
-
-
-    <article class="feature-card">
-      <div class="feature-icon">↓</div>
-
-      <h3>Export Your Work</h3>
-
-      <p>
-        Export your completed presentations and keep your
-        finished work ready to share.
-      </p>
-    </article>
-
-  </div>
-
-</div>
-
+    </div>
   </section>
 
-  <!-- HOW IT WORKS -->
-
+  <!-- ================= HOW IT WORKS ================= -->
   <section class="section section-alt" id="how-it-works">
+    <div class="container">
 
-
-<div class="container">
-
-  <div class="section-heading">
-    <div class="eyebrow">How it works</div>
-
-    <h2>
-      From idea to presentation in three steps.
-    </h2>
-  </div>
-
-
-  <div class="steps">
-
-    <div class="step">
-      <div class="step-number">01</div>
-
-      <div>
-        <h3>Describe your topic</h3>
-
-        <p>
-          Enter the topic or idea you want to turn into
-          a presentation.
-        </p>
+      <div class="section-heading">
+        <span class="eyebrow">How it works</span>
+        <h2>From idea to presentation in three steps.</h2>
       </div>
-    </div>
 
+      <div class="steps">
 
-    <div class="step">
-      <div class="step-number">02</div>
+        <div class="step">
+          <div class="step-number">01</div>
+          <h3>Describe your topic</h3>
+          <p>Enter the topic or idea you want to turn into a presentation.</p>
+        </div>
 
-      <div>
-        <h3>Generate and edit</h3>
+        <div class="step">
+          <div class="step-number">02</div>
+          <h3>Generate and edit</h3>
+          <p>Let AI create your presentation and make any changes you need.</p>
+        </div>
 
-        <p>
-          Let AI create your presentation and make any
-          changes you need.
-        </p>
+        <div class="step">
+          <div class="step-number">03</div>
+          <h3>Export</h3>
+          <p>Export your finished presentation and use it wherever you need it.</p>
+        </div>
+
       </div>
+
     </div>
-
-
-    <div class="step">
-      <div class="step-number">03</div>
-
-      <div>
-        <h3>Export</h3>
-
-        <p>
-          Export your finished presentation and use it
-          wherever you need it.
-        </p>
-      </div>
-    </div>
-
-  </div>
-
-</div>
-
-
   </section>
 
-  <!-- CTA -->
-
+  <!-- ================= CTA ================= -->
   <section class="cta-section">
+    <div class="container">
 
+      <div class="cta-card">
 
-<div class="container">
+        <div class="cta-text">
+          <span class="eyebrow">Get started</span>
+          <h2>Ready to create your next presentation?</h2>
+          <p>Try SlideGenie on the web or download the Android application.</p>
+        </div>
 
-  <div class="cta-card">
+        <div class="cta-buttons">
 
-    <div>
-      <div class="eyebrow">Get started</div>
+          <a
+            class="btn btn-light"
+            href="https://github.com/Harry-coder12/SlideGenie/releases"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2.2"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12"/>
+              <path d="m7 12 5 5 5-5"/>
+              <path d="M5 21h14"/>
+            </svg>
+            Download APK
+          </a>
 
-      <h2>
-        Ready to create your next presentation?
-      </h2>
+          <a class="btn btn-outline" href="web/">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2.2"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7 17 17 7"/>
+              <path d="M9 7h8v8"/>
+            </svg>
+            Open Web App
+          </a>
 
-      <p>
-        Try SlideGenie on the web or download the Android
-        application.
-      </p>
+        </div>
+
+      </div>
+
     </div>
-
-
-    <div class="cta-buttons">
-
-      <a
-        class="btn btn-primary"
-        href="https://github.com/Harry-coder12/SlideGenie/releases"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Get Android APK
-      </a>
-
-      <a class="btn btn-secondary" href="web/">
-        Open Web App
-      </a>
-
-    </div>
-
-  </div>
-
-</div>
-
-
   </section>
 
 </main>
 
+<!-- ================= FOOTER ================= -->
 <footer class="footer">
-
   <div class="container footer-inner">
 
+    <div class="footer-brand">
+      <img src="assets/slidegenie_logo.png" alt="SlideGenie logo" class="footer-logo">
+      <span>SlideGenie</span>
+    </div>
 
-<div class="footer-brand">
-  <img
-    src="assets/slidegenie_logo.png"
-    alt="SlideGenie logo"
-    class="footer-logo"
-  >
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="#screenshots">Screenshots</a>
+      <a
+        href="https://github.com/Harry-coder12/SlideGenie"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+    </div>
 
-  <span>SlideGenie</span>
-</div>
-
-<div class="footer-links">
-
-  <a href="privacy.html">
-    Privacy Policy
-  </a>
-
-  <a
-    href="https://github.com/Harry-coder12/SlideGenie"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    GitHub
-  </a>
-
-</div>
-
-<div class="copyright">
-  © 2026 SlideGenie. All rights reserved.
-</div>
-
+    <div class="copyright">
+      © 2026 SlideGenie. All rights reserved.
+    </div>
 
   </div>
-
 </footer>
 
 </body>
